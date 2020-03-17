@@ -16,7 +16,7 @@ const App = () => {
   const getDate = () => {
     axios.get("https://www.googleapis.com/youtube/v3/search", {
       params: {
-        key: "AIzaSyCR1LSnj1RrWWuT6adS4YOLRUd2xJTirp4",
+        key: "YOUR_API_KEY",
         part: "snippet",
         type: "video",
         maxResults: 18,
